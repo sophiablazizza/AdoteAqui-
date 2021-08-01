@@ -1,5 +1,5 @@
 body {
-    background-image: url("patinhasfundo.jpg");
+    background-image: url("../imagens/patinhasfundo.jpg");
     background-image: no-repeat;
     font-family: -webkit-pictograph;
 }
@@ -154,3 +154,4 @@ footer {
         width: 100%;
         justify-content: center;
     }
+}
