@@ -105,7 +105,7 @@ footer {
     margin-top: 9px;
 }
 
-@media(max-width:699px) {
+@media (max-width: 700px) {
 
     .cabecalho-titulo {
         display: none;
