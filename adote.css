@@ -1,0 +1,156 @@
+body {
+    background-image: url("patinhasfundo.jpg");
+    background-image: no-repeat;
+    font-family: -webkit-pictograph;
+}
+
+.cabecalho {
+    background-color: rgb(0, 130, 205);
+    padding: 20px;
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.cabecalho-titulo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.cabecalho-titulo a {
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho-nav {
+    display: flex;
+}
+
+.cabecalho-nav-link {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+.cabecalho-nav-link:hover {
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.conteudo-principal .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.conteudo-principal .container img {
+    width: 24%;
+    height: 285px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.conteudo-principal .container .imagem2 {
+    margin-top: 0;
+}
+
+.imagem:hover, .imagem2:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+footer {
+    background-color: rgb(0, 130, 205) ;
+    font-family: -webkit-pictograph;
+    font-size: large;
+    padding: 20px;
+}
+
+.rodape .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.rodape .container p {
+    align-items: center;
+}
+
+.fieldset-contato p {
+    margin-bottom: 7px;
+}
+
+.input-telefone {
+    display: flex;
+    margin-top: 4px;
+}
+
+.direitos-reservados {
+    text-align: center;
+    margin-top: 9px;
+}
+
+@media(max-width:699px) {
+
+    .cabecalho-titulo {
+        display: none;
+    }
+
+    .cabecalho-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho-nav-link {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .cabecalho .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+    .conteudo-principal .container img {
+        width: 100%;
+    }
+
+    .conteudo-principal .container {
+        flex-direction: column;
+    }
+
+    .rodape .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fieldset-contato {
+        margin-bottom: 3%;
+    }
+
+    .fieldset-contato p {
+        text-align: center;
+        margin-bottom: 3%;
+
+    }
+
+    .input-telefone {
+        width: 100%;
+        justify-content: center;
+    }
